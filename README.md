@@ -1,8 +1,8 @@
-**Instruction to start docker container aeradata**  
+**Instruction to start docker container aerodata**  
 the Dockerfile can be used to create Docker container with all librares for DL analysis of aerial images.  
 run of the image will open jupyter notebook server automatically.
 
-PASSWORD FOR JUPYTER NOTEBOOK: aeronet15
+PASSWORD FOR JUPYTER NOTEBOOK: passwd
 
 *to build image use (inside folder with Dockerfile):*  
 nvidia-docker build -t aerodata .
