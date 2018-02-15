@@ -1,0 +1,3 @@
+apt-get install -y graphviz libgraphviz-dev
+pip install graphviz
+pip install pydot==1.2.3
